@@ -16,7 +16,7 @@ Custom Android GKI kernel (`android15-6.6`, GKI 2.0 mixed-build) for the MT6768
   recompression (better ratio, worth the extra CPU cost since those pages are
   already infrequently touched).
 - **CPU idle**: trimmed to the `teo` governor only (`menu` disabled).
-- `CONFIG_LOCALVERSION="-Madruga"`.
+- `CONFIG_LOCALVERSION="-TheMoon"`.
 
 This repo is the ACK/GKI kernel side only. The device-tree / vendor module
 source (touch-boost tuning, MediaTek drivers, build scripts) lives in the
