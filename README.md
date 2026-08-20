@@ -20,7 +20,7 @@ Custom Android GKI kernel (`android15-6.6`, GKI 2.0 mixed-build) for the MT6768
 
 This repo is the ACK/GKI kernel side only. The device-tree / vendor module
 source (touch-boost tuning, MediaTek drivers, build scripts) lives in the
-companion repo, [Lamu-device-modules-6.6](https://github.com/OWLXS/Lamu-device-modules-6.6).
+companion repo, [motorola-lamu-device-modules-6.6](https://github.com/OWLXS/motorola-lamu-device-modules-6.6).
 
 Published as a single squashed commit (no upstream ACK history) to keep the
 repo lightweight — see `COPYING` for the kernel's own licensing.
@@ -45,7 +45,7 @@ kernel build system) — it is not buildable standalone from this repo alone.
 
 2. Replace the stock `kernel-6.6/` and `kernel_device_modules-6.6/` that
    `repo sync` checked out with **this repo** and
-   **[Lamu-device-modules-6.6](https://github.com/OWLXS/Lamu-device-modules-6.6)**
+   **[motorola-lamu-device-modules-6.6](https://github.com/OWLXS/motorola-lamu-device-modules-6.6)**
    respectively.
 
 3. From the **root of that workspace**, run:
