@@ -79,3 +79,15 @@ warning, make sure you installed an **official release** build (not a PR/CI
 debug build) — the kernel checks the manager APK's signing certificate
 against a hardcoded hash (`manager/manager_sign.h`), which only matches the
 real release signing key.
+
+## Credits
+
+- [ReSukiSU](https://github.com/ReSukiSU/ReSukiSU) — the root solution this
+  kernel ships, compiled directly into the image.
+- [susfs4ksu](https://gitlab.com/simonpunk/susfs4ksu) by simonpunk — the
+  SUSFS kernel-side patch integrated on top of ReSukiSU.
+- [AnyKernel3](https://github.com/osm0sis/AnyKernel3) by osm0sis (Chris
+  Renshaw) — used to package flashable zips for this device.
+- The [LineageOS Lamu device tree](https://github.com/LineageOS/android_kernel_motorola_lamu_manifest)
+  community, whose manifest this project builds on top of.
+- The upstream Android Common Kernel / GKI project this kernel is based on.
